@@ -3,13 +3,16 @@ import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/fi
 import { getFirestore, getDoc, doc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA_IiT77VIzL8Rxz7V7_gxMVdZ3xIq40PY",
-    authDomain: "otplogin-f1e6f.firebaseapp.com",
-    projectId: "otplogin-f1e6f",
-    storageBucket: "otplogin-f1e6f.firebasestorage.app",
-    messagingSenderId: "1071262798826",
-    appId: "1:1071262798826:web:87ba917c2d4e420d2a1893"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-app.firebaseapp.com",
+  projectId: "your-app",
+  storageBucket: "your-app.appspot.com",
+  messagingSenderId: "xxxxxxxxxxx",
+  appId: "1:xxxxxxxxxxxx:web:xxxxxxxxxxxxx"
 };
+
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
